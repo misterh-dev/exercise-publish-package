@@ -2,7 +2,7 @@
   "name": "mister-h-test-package",
   "version": "1.0.0",
   "description": "package for exercise",
-  "main": "index.js"
+  "main": "index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   }
