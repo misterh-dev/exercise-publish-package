@@ -24,9 +24,9 @@ jobs:
         with:
           node-version: '16.x'
           registry-url: 'https://npm.pkg.github.com'
-      - run: npm --prefix sample-packages/npm ci
       - run: |
           cd sample-packages/npm
+          npm ci
           npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
