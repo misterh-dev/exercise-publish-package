@@ -1,5 +1,5 @@
 {
-  "name": "mister-h-test-package",
+  "name": "@misterh-dev/mister-h-test-package",
   "version": "1.0.0",
   "description": "package for exercise",
   "main": "index.js",
